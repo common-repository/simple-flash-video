@@ -1,0 +1,20 @@
+Simple Stats TODO
+=================
+A list of things to be done at some point.
+ 
+ * Volume map per region for specific files
+ 
+ * Show what container and streams are for the file
+    - this requires parsing file headers with a little python magic
+ 
+ * Create js for embeds to ajax starts as hits to the log
+    - better than nothing I suppose...
+
+ * Cron job setup
+
+ * levenshtein searching
+
+ * OpenFlashChart 2
+
+ * python version check
+ * document title -> filename usage by ss

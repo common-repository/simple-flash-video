@@ -1,0 +1,337 @@
+#ss a img
+{
+    border: none;
+}
+
+#ss h1
+{
+    color: white;
+    background: #27557e url(images/glass_header.png) bottom center no-repeat;
+    font-size: 250%%;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0px -2px;
+    border-bottom: 4px solid #2d6493;
+}
+
+#ss h3
+{
+    color: white;
+    background: #27557e url(images/glass_small.png) center left repeat-x;
+    padding: 0.25em;
+    border: 2px solid #2d6493;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+#ss dt
+{
+    padding: 0.25em 0em;
+}
+
+#ss dd
+{
+    font-style: italic;
+}
+
+#ss th
+{
+    color: white;
+    background: #27557e url(images/glass_small.png) center left repeat-x;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-bottom: 2px solid #2d6493;
+    padding: 0.2em;
+}
+
+#ss tr.alt td
+{
+    background-color: #eee;
+}
+
+#ss td
+{
+    color: black;
+    text-align: right;
+    word-break: break-all;
+}
+
+#ss td.name
+{
+    text-align: left;
+}
+
+#ss input
+{
+    color: white;
+    background: #07354e url(images/glass_small.png) center left repeat-x;
+    border: 1px solid #2d6493;
+    margin: 0em;
+}
+
+#ss input.txt
+{
+    color: #666;
+    background-color: #eee;
+    border: 1px solid #666;
+    border-right: none;
+    padding: 0.2em;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#ss select
+{
+    margin-right: 0.5em;
+}
+
+#ss .graph, #ss table
+{
+    background-color: #fff;
+    border: 2px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 720px;
+    margin: 2.5em auto;
+    padding: 0em;
+}
+
+#ss table.detailed td
+{
+    text-align: left;
+}
+
+#ss .graph
+{
+    padding: 5px;
+    height: 400px;
+}
+
+#ss .code
+{
+    background-color: #ccc;
+    border: 1px solid #eee;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: monospace;
+    margin: 1em;
+    padding: 0.5em;
+    overflow: scroll;
+}
+
+#ss .clear
+{
+    clear: both;
+}
+
+#ss .half
+{
+    width: 44%;
+    text-align: left;
+}
+
+#ss .left
+{
+    float: left;
+    padding-left: 4%;
+}
+
+#ss .right
+{
+    float: right;
+    padding-right: 4%;
+}
+
+#ss .info
+{
+    margin: 2.5em;
+}
+
+#ss .info span
+{
+    color: black;
+    background: #e4d840 url(images/glass_small.png) center left repeat-x;
+    border: 2px solid #c4b811;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+#ss .info span:before
+{
+    content: url(images/important.png);
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+#ss .error
+{
+    color: white;
+    background-color: #922;
+    border: 2px solid #700;
+    padding: 1em;
+    margin: 1.5em;
+    text-align: left;
+    font-size: 120%;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#ss .error a
+{
+    color: #cfc;
+}
+
+#ss .error a:hover
+{
+    color: #efe;
+}
+
+#ss .email, #ss .imagelink
+{
+    display: block;
+    padding-left: 18px;
+    margin-bottom: 1em;
+    background: transparent url(images/arrow.png) center left no-repeat;
+}
+
+#ss #container
+{
+    color: black;
+    background-color: #ddd;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    padding: 0em;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+#ss #menusearch
+{
+    height: 50px;
+    margin-bottom: -35px;
+}
+
+#ss #menu
+{
+    color: #07354e;
+    padding: 0.25em 0.5em;
+    list-style: none;
+    margin: 0em;
+    margin-top: -1px;
+    text-align: left;
+    float: left;
+}
+
+#ss #menu li
+{
+    display: inline;
+    padding: 0.25em 0.25em;
+}
+
+#ss #menu a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0.25em 0.5em;
+    background: #27557e url(images/glass_small.png) center left repeat-x;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #2d6493;
+    border-top: none;
+}
+
+#ss #menu a:hover
+{
+    color: black;
+    background-color: #e4d840;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #c4b811;
+    border-top: none;
+}
+
+#ss #ipsearch
+{
+    float: right;
+    padding: 0.25em 0.5em;
+    margin-right: 0.5em;
+    background: #27557e url(images/glass_small.png) center left repeat-x;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #2d6493;
+    border-top: none;
+}
+
+#ss #ipsearch form
+{
+    margin: 0em;
+}
+
+#ss #dates
+{
+    color: white;
+    margin: 2.5em;
+}
+
+#ss #dates span
+{
+    background: #27557e url(images/glass_small.png) center left repeat-x;
+    border: 2px solid #2d6493;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+#ss #donate input
+{
+    background: none;
+    border: none;
+}
+
+#ss #footer
+{
+    color: #393939;
+    font-size: 80%;
+    padding: 0.25em;
+}
+
+#ss #footer a
+{
+    color: #393939;
+    text-decoration: none;
+}

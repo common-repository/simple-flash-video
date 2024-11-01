@@ -1,0 +1,68 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\vieww12000\viewh15840\viewkind0
+\deftab720
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf0 Simple Flash Video Version - 1.8 Change Log\
+\
+Upgraded to JW FLV Version 4.5.230\
+Fixed issue in SimpleStats.js where an extra call was added to a Listner\
+REMOVED Shadowbox close in video.php as it is now handled by SimpleStats.js\
+UPDATED Shadowbox to 3.0b\
+ADDED Shopping cart via Google Checkout\
+ADDED ability to have spaces in variables when they are in "quotes"\
+ADDED Sharing Plugin to add blog post URL of video automatically if turned on in the admin panel. \
+-----------------------------------------\
+Simple Flash Video Version - 1.7 Change Log\
+\
+ADDED meta data for shadowbox, video title, and arguments so theme authors can intergrate SFV into a theme.\
+ADDED Option in Admin for meta info. Defaults to false (off). \
+Bits on the run now includes height and width in the config.xml so if you do not override the setting in the command it use what bits is set to. If you want to change the default of that player change it @ bitsontherun.com and all players using that tempalte will get updated.\
+ADDED click_title as argument for command line so you can override the default click title.\
+ADDED Plugin Setting on Admin page where you can enter multiple plugins separated by commas. \
+ADDED Additional Settings on Admin Page where you can input any extra settings for plugins or other variables placing each on a new line in a variablename=value style.\
+ADDED setting to make all videos default to being power by BOTR. Use this if all of your videos are for BOTR but you use domain masking this way the plugin knows to use Bits even though its a different domain\
+FIXED issue where title and description was not set properly for BOTR files\
+REMOVED embed option - plugin will default to swfobject code. embed was never able to validate. \
+REMOVED Bitsontherun.com support using mp4 link.\
+ADDED Bitsontherun.com support using .swf link (provides stats tracking and allows the changes made on their servers to come to your blog without needing an update)\
+ADDED Blip support (PHP 5 Required)\
+ADDED Customizable Title under the image that used to be hard coded to: Click to Watch. User can now set it in the admin to anything or nothing.\
+UPGRADED to Longtail JW FLV Player Version 4.4.198\
+Image Variable now set using the image that the plugin finds or one set via vid_image. This is displayed before the video starts playing, and afterwards. \
+Shadowbox now closes when videos are complete.\
+Updated to latest Simple Stats\
+Fixed issue where the swfobject code did not have a DIV of mediaspace for ads.\
+Fixed issues where div was not closed properly in video.php for swfobject code.\
+Fixed Title to properly have spaces for Longtail Premium Ads\
+Reduced Main replacement Function by 50% and reduced complexity. \
+\
+--------------------\
+\
+Simple Flash Video Version - 1.6 Change Log\
+\
+Fixed  when EMBED code was always called when shadowbox is off\
+Fixed Text box width and height in SFV config page in WP 2.7\
+Fixed issue when shadowbox was disable and custom sizes were ignored\
+Fixed security issue with stream.php\
+Simple Stats now tracks Flash Version Numbers of the visitors\
+Fixed issue where Longtail code was not always displayed properly\
+Updated to JWFLV 4.2 - Updated Streamer Variable and Colors\
+Added the variable in the settings for a default image to use if none is found for the video\
+Added ability to set SWFObject or Embed code as the default\
+Updated to Simple Stats 1.2.1\
+Added ability to remove padding from shadowbox around the video\
+Changed Preview to display link and utilize shadowbox\
+Added Youtube Ability \
+Require 9.0.115 Flash Version\
+Added Link to update flash if proper Version is not installed\
+Added Delete Logs Option\
+Added Longtail adverts\
+Added Options Saved Notification\
+Fixed Centering Bug for videos in Shadowbox\
+RSS Feeds now get a proper .mp4 file or link to FLV\
+Fixed issue when users moved wp-content directory in WP 2.6\
+Added vid_image variable to allow the use of any photo on a video link\
+}

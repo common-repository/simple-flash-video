@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<config>
+	<height>250</height>
+	<width>400</width>
+	<overstretch>none</overstretch>
+	<fullscreen>true</fullscreen>
+	<autostart>true</autostart>
+	<bufferlength>7</bufferlength>
+	<repeat>false</repeat>
+	<quality>false</quality>
+	<volume>100</volume>
+	<shuffle>false</shuffle>
+	<controlbar>bottom</controlbar>
+	<playlist>none</playlist>
+	<playlistsize>200</playlistsize>
+	<mute>false</mute>
+	<stretching>uniform</stretching>
+	<longtailenable>false</longtailenable>
+	<default_click_title>Click to Watch!</default_click_title>
+	<enable_meta_tags>false</enable_meta_tags>
+	<botr>false</botr>
+</config>

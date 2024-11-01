@@ -1,0 +1,53 @@
+Simple Stats Version 1.2.2
+==========================
+Simple Stats is a simple to install and easy to use statistics package for Jeroen Wijering's FLV player. It originally started as a simple Ruby script and has since evolved into a high quality professional package that is much, much faster through the use of aggressive caching and smarter code.
+
+Simple stats consists of Javascript, PHP, and Python components. The Javascript component gathers statistics while the PHP and Python components log and process the log, respectively.
+
+You can view a live demo of Simple Stats that is using a log file with 100,000 entries at:
+
+http://programmer-art.org/demo/simplestats/
+
+Please note that currently Simple Stats works ONLY for videos hosted on the same domain as the Simple Stats scripts because of browser restrictions (cross-site request restrictions to prevent attacks).
+
+Requirements
+------------
+Server-side:
+ * Python (2.3+)
+ * PHP (4.3+)
+ * Web Server
+ 
+Client-side:
+ * Web Browser
+ * Javascript
+ * Flash
+
+Installation
+------------
+ * Extract the contents of the Simple Stats archive to your server.
+ * Make sure the web server can write files to the extracted folder!
+ * Navigate to the extracted folder in your web browser and follow the instructions.
+
+Contributers
+------------
+Daniel G. Taylor <dan@programmer-art.org>
+Josh Chesarek <josh@simplethoughtproductions.com>
+Jenny Pettman
+
+License
+-------
+Copyright 2008 Daniel G. Taylor
+    
+Released under the Creative Commons Attribution Noncommercial Share Alike
+license. For more information please see the following: 
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+This work is NOT licensed for commercial use. If you use it to manage stats
+on a commercial site, or provide stats information to customers through the
+use of this script, then you must buy a commercial license. Commercial
+licenses are affordable, simple to obtain, and help provide further
+development of Simple Stats. Please see the following:
+
+http://www.simplethoughtproductions.com/simple-stats-licensing/
+

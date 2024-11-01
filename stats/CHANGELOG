@@ -1,0 +1,61 @@
+Changelog
+=========
+2009-05-02 Daniel G. Taylor <dan@programmer-art.org>
+
+    * simplestats.py: Fix small bug where Stat.title was undefined
+
+2008-11-02 Daniel G. Taylor <dan@programmer-art.org>
+
+    * simplestats.js: Log the Flash client and player version when possible
+
+2008-09-20 Daniel G. Taylor <dan@programmer-art.org>
+
+    * functions.php: properly escape query and date in all calls to python
+    * Release tools directory which was previously not public
+    * Version 1.2.1 release
+    
+2008-07-09 Daniel G. Taylor <dan@programmer-art.org>
+    
+    * simplestats.py: Fix possible division by zero
+    * Test with 3.x player series
+    * Version 1.2 release candidate
+
+2008-07-08 Daniel G. Taylor <dan@programmer-art.org>
+
+    * Try to match searched filenames before failing.
+
+2008-07-07 Daniel G. Taylor <dan@programmer-art.org>
+
+    * simplestats.py: Added --query-string option
+    * functions.php: Fix getting older python versions
+    * functions.php: Define file_get_contents/file_put_contents if not defined
+    * functions.php: Use existing query strings (useful for embedding)
+
+2008-07-05 Daniel G. Taylor <dan@programmer-art.org>
+
+    * 4.x player support
+    * Popularity map per region for specific files
+    * Average time spent buffering per file
+    * Make the bars links!
+    * Automatically keep simplestats.js logger link up to date
+    * Do permissions checks and on failure print out permissions info
+    * Version and installation info in error reports
+    * Ability to disable caching with --no-cache for simplestats.py
+    * Fix embed example to not set the id of multiple elements to the same thing
+    * Selecting search input box behaves more sanely
+    * Define set() for older versions of Python that don't support it
+    * Fix certain characters in filenames causing problems, like ':'
+    * Allow embedding Simple Stats into other sites
+    * All output files are now generated with dates in the name
+    * Several changes to fix navigating multiple months of logs
+    * Version 1.2 beta release
+
+2008-06-16 Daniel G. Taylor <dan@programmer-art.org>
+
+    * simplestats.py: Properly URL-escape video names for graphs
+    * Version 1.1 release
+
+2008-06-15 Daniel G. Taylor <dan@programmer-art.org>
+
+    * Initial release (1.0)
+
